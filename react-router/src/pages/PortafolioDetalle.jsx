@@ -17,7 +17,7 @@ const PortafolioDetalle = () => {
       <p>Descripcion: {proyectos[pid - 1].desc} </p>
 
       <button onClick={() => {
-        navigate('/Portafolio')
+        navigate(-1)
       }}
       >Go Back
       </button>
